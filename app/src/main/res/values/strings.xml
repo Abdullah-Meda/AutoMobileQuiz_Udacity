@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AutoMobile Quiz</string>
+
+    <string name="quiz_name">AutoMobile Quiz</string>
+
+    <string name="question1">What is generally considered to be the first "pony car"?</string>
+    <string name="q1h">Its a FORD Model</string>
+    <string name="q1ans">FORD MUSTANG</string>
+
+    <string name="question2">What was the first Japanese car to be produced in the United States?</string>
+    <string name="q2h">Its a Common HONDA Model</string>
+    <string name="q2ans">HONDA ACCORD</string>
+
+    <string name="question3">Mazda, Infiniti and Acura are not __________ automakers</string>
+    <string name="q3a1">AMERICAN</string>
+    <string name="q3a2">SOUTH KOREAN</string>
+    <string name="q3a3">JAPANESE</string>
+
+    <string name="question4">What was the first car to break the sound barrier?</string>
+    <string name="q4a1">BUGATTI VEYRON</string>
+    <string name="q4a2">THRUST SSC</string>
+    <string name="q4a3">KOENIGSEGG AGERA R</string>
+    <string name="q4a4">HENNESSEY VENOM GT</string>
+
+    <string name="question5">What year was the Corvette first introduced?</string>
+    <string name="q5a1">1963</string>
+    <string name="q5a2">1943 </string>
+    <string name="q5a3">1953</string>
+    <string name="q5a4">1973</string>
+
+    <string name="question6">What was the first car to be mass-produced?</string>
+    <string name="q6a1">DURYEA MOTOR WAGON</string>
+    <string name="q6a2">MODEL T</string>
+    <string name="q6a3">MODEL A</string>
+    <string name="q6a4">PACKARD</string>
+
+    <string name="submit_button">SUBMIT</string>
+
+</resources>

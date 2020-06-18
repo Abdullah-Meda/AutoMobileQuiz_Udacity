@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/car_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="33dp"
+                android:paddingTop="18dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="@string/quiz_name" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:text="@string/question1"
+            style="@style/QuestionTextStyle"
+            android:fontFamily="sans-serif-black"/>
+
+        <EditText
+            android:id="@+id/q1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q1h"
+            android:inputType="textCapWords" />
+
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question2"
+            android:fontFamily="sans-serif-black"/>
+
+        <EditText
+            android:id="@+id/q2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q2h"
+            android:inputType="textCapWords" />
+
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question3"
+            android:fontFamily="sans-serif-black"/>
+
+        <CheckBox
+            android:id="@+id/q3a1"
+            android:text="@string/q3a1"
+            style="@style/AnswerTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q3a2"
+            android:text="@string/q3a2"
+            style="@style/AnswerTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q3a3"
+            android:text="@string/q3a3"
+            style="@style/AnswerTextStyle"/>
+
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question4"
+            android:fontFamily="sans-serif-black"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/q4a1"
+                android:text="@string/q4a1"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q4a2"
+                android:text="@string/q4a2"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q4a3"
+                android:text="@string/q4a3"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q4a4"
+                android:text="@string/q4a4"
+                style="@style/AnswerTextStyle"/>
+        </RadioGroup>
+
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question5"
+            android:fontFamily="sans-serif-black"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/q5a1"
+                android:text="@string/q5a1"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q5a2"
+                android:text="@string/q5a2"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q5a3"
+                android:text="@string/q5a3"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q5a4"
+                android:text="@string/q5a4"
+                style="@style/AnswerTextStyle"/>
+        </RadioGroup>
+
+
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question6"
+            android:fontFamily="sans-serif-black"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/q6a1"
+                android:text="@string/q6a1"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q6a2"
+                android:text="@string/q6a2"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q6a3"
+                android:text="@string/q6a3"
+                style="@style/AnswerTextStyle"/>
+            <RadioButton
+                android:id="@+id/q6a4"
+                android:text="@string/q6a4"
+                style="@style/AnswerTextStyle"/>
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/submit_button"
+            android:background="#FF5252"
+            android:onClick="submitQuiz"/>
+
+    </LinearLayout>
+
+</ScrollView>
